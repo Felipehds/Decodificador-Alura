@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Decodificador Alura</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="Decodificador.css">
+		
+	</head>
+
+	<body class="container">
+
+		<h1 class="titulo">Vamos codificar sua mensagem?!</h1>
+		<section class="crip_descrip">
+			<div class="mensagem__texto">
+				<textarea id="texto"class="texto" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+				<textarea id="mensagem" class="mensagem" cols="30" rows="10" placeholder="Sua mensagem é..."></textarea>
+			</div>
+			<div class="mensagem__botao">
+				<button onclick= "codifica()" class="crip" >Criptografar</button>
+				<button onclick= "descodifica()" class="descrip">Descriptografar</button>
+			</div>
+		</section>
+		<script src="Decodificador.js"></script>
+	</body>
+</html>
